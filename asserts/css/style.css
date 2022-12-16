@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -115,7 +116,11 @@ header.header {
 } */
 
 .hero .row {
-  padding-top: 130px;
+  /* padding-top: 130px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 98px);
 }
 
 .hero .hero-content {
